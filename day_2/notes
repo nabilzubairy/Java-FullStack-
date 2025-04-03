@@ -1,0 +1,24 @@
+Full Stack --> front end + backend (database)
+
+frontend : 
+    html --> hyper text markup language
+    css --> cascading style sheet
+    js --> javascript
+
+backend :
+    java
+
+databases : mysql, oracle, mongodb
+
+
+
+Web technologies:
+    the technology or tools used to create and develop web pages and web applications
+
+Html --> used to create the structure of the webpage
+     --> the file must have .html extension
+    -->is introduced by tim berners-lee in 1993
+    --> is a markup language
+    -->is a combination of tags and attributes
+
+tag-->tag is a keyword which is enclosed in ankle brackets < tagName ></tagName>

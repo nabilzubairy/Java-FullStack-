@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-areas: "header header"
+            "content section1"
+            "content section2"
+            "footer footer";
+        }
+
+        .child{
+            align-content: center;
+            text-align: center;
+            margin: 5px;
+            font-size: 50px;
+            border-radius: 20px;
+        }
+        .header{
+            background-color: aqua;
+            grid-area: header;
+        }
+        .content{
+            background-color: red;
+            grid-area: content;
+        }
+        .section1{
+            background-color: greenyellow;
+            grid-area: section1;
+        }
+        .section2{
+            background-color: greenyellow;
+            grid-area: section2;
+        }
+        .footer{
+            background-color: green;
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child header">header</div>
+        <div class="child content">content</div>
+        <div class="child section1">Section 1</div>
+        <div class="child section2">section 2</div>
+        <div class="child footer">footer</div>
+
+    </div>
+</body>
+</html>
