@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Relative</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .p1{
+            position: static;
+            background-color: red;
+            width: 300px;
+            height: 200px;
+            left: 20px;
+        }
+        .p2{
+            position: relative;
+            background-color: blue;
+            width: 300px;
+            height: 200px;
+            left: 20px;
+            z-index: 3;
+        }
+        .p3{
+            position: relative;
+            background-color: rgb(246, 255, 0);
+            width: 300px;
+            height: 200px;
+            left: 40px;
+            z-index: 2;
+            bottom: 20px;
+        }
+        .p4{
+            position: relative;
+            background-color: rgb(0, 255, 17);
+            width: 300px;
+            height: 200px;
+            left: 60px;
+            bottom: 40px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <p class="p1">this is static </p>
+    <p class="p2">this is relative</p>
+    <p class="p3">this is relative</p>
+    <p class="p4">this is relative</p>
+</body>
+</html>

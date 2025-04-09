@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition Task1</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 100px;
+            margin: 10px 0;
+        }
+        .without{
+            background-color: aquamarine;
+        }
+        .with{
+            background-color: red;
+            /* transition-duration: 2s;
+            transition-property: all; 
+            transition-delay: 4s;
+            transition-timing-function: ease; */
+            transition: all 2s ease 1s;
+        }
+        .box:hover{
+            /* width: 400px;
+            height: 150px; */
+            transform: rotate(90deg);
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box without"> Without Transition</div>
+    <div class="box with">With Transition</div>
+</body>
+</html>
