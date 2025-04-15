@@ -1,0 +1,126 @@
+what is functions :
+--it is a block of code that perform a specific task
+--it is a re-usable block of code 
+--it is a collection of statements that perform a task
+
+why functions 
+    1. code reusability
+    2.
+    3.code readability
+    4.code organization
+    5.scalability
+
+types
+    function declaration 
+    function experation
+    arrow function
+    callback functions
+    constructor functions
+    generator functions
+    IIFE
+    high order functions
+===========================================
+1.function declaration/named function/general function
+-------------------------------------
+
+syntax:
+ function functionName/identifier(){
+    //set of sentence that perform a task
+ }
+
+ =======================================
+ 2.function experation
+ --------------------------
+ syntax:
+        let result = function(arg1,arg2........){
+            return result;
+        }
+
+
+        result(arg1,arg2........)
+=========================================
+
+3.arrow function
+-----------------
+syntax:
+
+    let data= ()=>{
+
+    }
+
+ex: (ar1,ar2)=>{
+    //specific task
+}
+
+========================================
+4.constructor functions
+----------------------------
+    -it is a special function that is used to create objects.
+
+syntax:
+
+        function Person(name,age){
+            this.name = name;
+            this.age = age;
+        }
+
+    const person = new Person("ram",20)
+
+
+======================================
+5.Call back function
+---------------------
+-it is a function that is passed as a argument to other function-
+-it is a function that is called by another function.
+
+syntax:
+
+    function functionName(arg1,arg2,func_3,func_2){
+        //set of line that perform task
+    }
+
+    functionName(arg1,arg2,func_3,func_2);
+
+=======================================
+6.generator functions
+------------------------
+-it is a function that is used to createiterators/generators
+
+syntax:
+
+        function* functionName(){
+            yield 1;
+            .
+            .
+            .
+            yield n;
+        }
+
+
+=======================================
+7.IIFE  
+----------
+    -immediately invoked function experation
+    -it is a function that is called immediately after it is defined
+
+syntax:
+
+        {
+            function(){
+                //set of sentences that perform a task
+            }
+        }();
+
+=======================================
+8.high order functions
+----------------------
+    - it is a function that is passed as an argument to another function
+    -takes a function as an argument and returns a function
+    -map(),filter
+
+syntax:
+
+    function functionName(ar1,ar2, func_2){
+        //set of sentences that perform a task
+        return func_2(ar1,ar2);
+    }

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question 4</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f1f3f6;
+}
+
+.container {
+    width: 700px;
+    height: 400px;
+    margin: 50px auto;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.left-panel {
+    width: 40%;
+    background-color: #0096da;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-panel h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.left-panel p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.left-panel img {
+    width: 100%;
+    max-width: 150px;
+    margin-top: auto;
+}
+
+.right-panel {
+    width: 60%;
+    padding: 30px 40px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.right-panel input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.right-panel .terms {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.right-panel .terms a {
+    text-decoration: none;
+}
+
+.right-panel button {
+    background-color: #fb641b;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.signup a {
+    text-decoration: none;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="left-panel">
+            <h2>Login</h2>
+            <p>Get access to your Orders,<br>Wishlist and<br>Recommendations</p>
+            <img src="media/flipkart.webp" alt="flipkart">
+        </div>
+
+        
+        <div class="right-panel">
+            <form>
+                <input type="text" placeholder="Enter Email/Mobile number" required><br>
+                <p class="terms">
+                    By continuing, you agree to Flipkart's 
+                    <a href="#">Terms of Use</a> and 
+                    <a href="#">Privacy Policy</a>
+                </p>
+                <button type="submit">Request OTP</button>
+            </form>
+            <p class="signup"><a href="#">New to Flipkart? Create an account</a></p>
+        </div>
+    </div>
+</body>
+</html>

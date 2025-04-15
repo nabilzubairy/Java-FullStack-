@@ -1,0 +1,15 @@
+conditional statement 
+    it is used to execute code(block of code) based on a conditions
+
+types:
+    1.if statement
+    2.if else statement 
+    3.nested if statement
+    4.if elif else statement (elseif ladder)
+
+    ---------------------------------
+    1.if dtatement
+    syntax:
+        if (condition){
+            code to be executed of condition is true
+        }

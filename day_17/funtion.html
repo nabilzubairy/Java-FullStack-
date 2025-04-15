@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <script>
+
+        function first_function(){
+            console.log("Hello World!");
+        }
+
+        first_function();
+
+        //=============================
+
+        function second_function(name){
+            console.log("Hello "+ name +"!");
+        }
+
+        second_function("Nabil");
+
+        //=============================
+
+        function third_function(name){
+            console.log("Hello ${name} !");
+        }
+
+        third_function("Nabil");
+
+        //=============================
+
+        function four_function(name){
+            return "Hello ${name} !";
+        }
+
+        let data = four_function("kim");
+        console.log(data);
+        console.log(four_function("kim"));
+    </script>
+</body>
+</html>
