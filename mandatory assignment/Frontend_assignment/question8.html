@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb On/Off</title>
+    <style>
+        /* for the bulb */
+        #bulb {
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            border-radius: 50%;
+            background-color: white;
+            margin: 20px auto;
+        }
+
+        /* for the buttons */
+        .btn {
+            width: 60px;
+            height: 40px;
+            margin: 10px;
+            background-color: beige;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+
+        /* Center alignment */
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="bulb"></div>
+
+    <div class="center">
+        <button class="btn" onclick="turnOn()">ON</button>
+        <button class="btn" onclick="turnOff()">OFF</button>
+    </div>
+
+    <script>
+        function turnOn() {
+            let color = prompt("Enter bg color");
+            if (color) {
+                document.getElementById("bulb").style.backgroundColor = color;
+            }
+        }
+
+        function turnOff() {
+            document.getElementById("bulb").style.backgroundColor = "white";
+        }
+    </script>
+</body>
+
+</html>
